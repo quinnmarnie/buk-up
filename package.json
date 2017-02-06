@@ -1,0 +1,12 @@
+{
+  "name": "capstone",
+  "private": true,
+  "version": "1.0.0",
+  "description": "capstone project",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+  }
+}
